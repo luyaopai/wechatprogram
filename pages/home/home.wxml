@@ -1,0 +1,4 @@
+<!--pages/home/home.wxml-->
+<text>这是home页面</text>
+<view></view>
+<button size="mini" type="warn">提交</button>
