@@ -1,0 +1,20 @@
+/* components/category/category.wxss */
+.container {
+  height: 40rpx;
+}
+
+.category {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.cateContainer {
+  display: inline-block;
+  width: 20%;
+  padding: 10rpx;
+
+}
+
+.cateItem {
+  text-align: center;
+}

@@ -1,5 +1,9 @@
 <!--pages/home/home.wxml-->
-<text>这是home页面</text>
-<view></view>
-<radio></radio>
-<button size="mini" type="warn">提交</button>
+<view class="box">
+  <view class="head">
+    <category list="{{newsTypes}}" bind:chooseList="chooseList" bind:tap="handClick"></category>
+  </view>
+  <view style="margin-top:40rpx;padding:10rpx">
+    <list detail="{{detail}}" bind:checkDetail="checkDetail"></list>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+<!--components/category/category.wxml-->
+<view class="container">
+  <scroll-view scroll-x="true" class="category">
+    <view class="cateContainer" wx:for="{{list}}" wx:key="{{index}}" bindtap="handleClick" data-typeId="{{item.typeId}}">
+      <view class="cateItem">
+        {{item.typeName}}
+      </view>
+    </view>
+  </scroll-view>
+</view>

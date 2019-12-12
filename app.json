@@ -1,6 +1,41 @@
 {
   "pages": [
     "pages/home/home",
-    "pages/about/about"
-  ]
+    "pages/user/user",
+    "pages/favorite/favorite",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffbd27",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "MZ新闻",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#cccccc",
+    "selectedColor": "#ffbd27",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "主页",
+        "iconPath": "assets/shouye.png",
+        "selectedIconPath": "assets/shouye-.png"
+      },
+      {
+        "pagePath": "pages/favorite/favorite",
+        "text": "发现",
+        "iconPath": "assets/icon-test.png",
+        "selectedIconPath": "assets/faxian.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "assets/wode-weixuan.png",
+        "selectedIconPath": "assets/wode-.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }

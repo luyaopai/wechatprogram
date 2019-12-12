@@ -1,0 +1,14 @@
+<!--components/list/list.wxml-->
+<view class="container" wx:for="{{detail}}" wx:key="{{index}}" bindtap="lookDetail" data-newsId="{{item.newsId}}">
+  <view class="left">
+    <view class="top">{{item.title}}</view>
+    <view class="bot">
+      <text>{{item.source}} </text>
+      <text>{{item.postTime}}</text>
+    </view>
+  </view>
+  <view class="right">
+    <image mode="scaleToFill" src="{{item.imgList[0]}}">
+    </image>
+  </view>
+</view>

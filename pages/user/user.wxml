@@ -1,0 +1,14 @@
+<!--pages/user/user.wxml-->
+<view>
+  <view class="userInfo">
+    <view class="head">
+      <image src="{{avaurl}}"></image>
+    </view>
+    <button bindgetuserinfo="handleLogin" open-type="getUserInfo" size="mini" hidden="{{isShow}}">点击登录</button>
+    <view hidden="{{!isShow}}">{{username}}</view>
+  </view>
+  <view hidden="{{!isShow}}">
+    <text>我的收藏</text>
+    <list detail="{{detail}}"  bind:checkDetail="checkDetail"></list>
+  </view>
+</view>

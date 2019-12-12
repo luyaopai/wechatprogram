@@ -1,0 +1,18 @@
+<!--pages/detail/detail.wxml-->
+<view class="container">
+  <view class="title">{{title}}</view>
+  <view>
+    <text class="source">{{source}} {{ptime}}</text>
+  </view>
+  <image mode="aspectFit" src="{{cover}}"></image>
+  <parser html="{{content}}" />
+  <button open-type="getUserInfo" bindgetuserinfo="getUser" class="favbtn" hover-class="hover"></button>
+  <button open-type="share" class="sharebtn" hover-class="hover"></button>
+  <view class="share">
+    <view>
+      <image mode="aspectFit" src="../../assets/shoucang.png"></image>
+      <image mode="aspectFit" src="../../assets/weixin.png"></image>
+      <image mode="aspectFit" src="../../assets/pengyouquan.png"></image>
+    </view>
+  </view>
+</view>

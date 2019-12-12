@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "parser": "/Parser/index"
+  },
+  "enablePullDownRefresh":true
+}

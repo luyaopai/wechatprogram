@@ -1,0 +1,31 @@
+/* pages/user/user.wxss */
+.userInfo {
+  height: 300rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  width: 100rpx;
+  height: 100rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom:20rpx; 
+}
+
+.head image {
+  width: 100%;
+  height: 100%;
+}
+
+.name {
+  display: none;
+}
+
+button {
+  display: none;
+}

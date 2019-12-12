@@ -1,0 +1,68 @@
+/* pages/detail/detail.wxss */
+
+.container {
+  padding: 30rpx 30rpx 100rpx;
+}
+
+.container image {
+  width: 100%;
+}
+
+rich-text.trees--img {
+  padding: 20rpx 0;
+}
+
+.title {
+  font-size: 60rpx;
+  font-weight: 800;
+}
+
+.source {
+  font-size: 30rpx;
+  color: #c1c1c1;
+}
+
+.share {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.share view {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: white;
+  padding: 10rpx 0;
+}
+
+.share image {
+  height: 70rpx;
+  width: 70rpx;
+}
+
+button {
+  position: fixed;
+  bottom: 0;
+  width: 50rpx;
+  z-index: 100;
+  background: transparent;
+  border: none;
+  height: 80rpx;
+}
+
+button::after {
+  border: none;
+}
+
+.hover {
+  display: none;
+}
+
+.favbtn {
+  left: 16%;
+}
+
+.sharebtn {
+  left: 48%;
+}

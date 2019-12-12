@@ -1,1 +1,12 @@
 /* pages/home/home.wxss */
+/* .box {
+  height: 1050rpx;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    color: transparent;
+} */
+
