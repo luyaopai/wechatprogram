@@ -3,7 +3,7 @@
   <view class="head">
     <category list="{{newsTypes}}" bind:chooseList="chooseList" bind:tap="handClick"></category>
   </view>
-  <view style="margin-top:40rpx;padding:10rpx">
+  <view class="home_list">
     <list detail="{{detail}}" bind:checkDetail="checkDetail"></list>
   </view>
 </view>

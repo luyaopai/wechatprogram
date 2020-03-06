@@ -15,20 +15,23 @@
 }
 
 .top {
-  font-weight: 800;
-  font-size: 40rpx;
+  font-weight: 600;
+  font-size: 36rpx;
 }
 
 .bot {
   color: #c1c1c1;
-  font-size: 30rpx;
+  font-size: 28rpx;
 }
 
 .right {
   width: 30%;
+  text-align: center;
+  
 }
 
 .right image {
-  width: 100%;
-  height:100%;
+  width: 90%;
+  height: 90%;
+  margin-top: 4px;
 }

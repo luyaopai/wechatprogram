@@ -10,3 +10,11 @@
     color: transparent;
 } */
 
+.head {
+  margin: 9px 0;
+}
+
+.home_list {
+  padding :0 4px;
+}
+

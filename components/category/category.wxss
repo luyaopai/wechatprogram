@@ -1,6 +1,6 @@
 /* components/category/category.wxss */
 .container {
-  height: 40rpx;
+  height: 50rpx;
 }
 
 .category {
@@ -10,8 +10,10 @@
 
 .cateContainer {
   display: inline-block;
-  width: 20%;
-  padding: 10rpx;
+  width: 16%;
+  margin: 0 4px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
 
 }
 

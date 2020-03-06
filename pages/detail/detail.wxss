@@ -13,8 +13,8 @@ rich-text.trees--img {
 }
 
 .title {
-  font-size: 60rpx;
-  font-weight: 800;
+  font-size: 50rpx;
+  font-weight: 600;
 }
 
 .source {
@@ -29,7 +29,7 @@ rich-text.trees--img {
 }
 
 .share view {
-  display: flex;
+  /* display: flex; */
   flex-direction: row;
   justify-content: space-around;
   background: white;
@@ -39,6 +39,7 @@ rich-text.trees--img {
 .share image {
   height: 70rpx;
   width: 70rpx;
+  margin: 0 10%;
 }
 
 button {

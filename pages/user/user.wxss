@@ -29,3 +29,13 @@
 button {
   display: none;
 }
+
+.love {
+  border-bottom :1px dashed #ccc;
+}
+
+.love text {
+  display: inline-block;
+  margin: 6px;
+  font-size: 40rpx;
+}

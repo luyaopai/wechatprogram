@@ -8,7 +8,9 @@
     <view hidden="{{!isShow}}">{{username}}</view>
   </view>
   <view hidden="{{!isShow}}">
-    <text>我的收藏</text>
+    <view class="love">
+      <text>我的收藏</text>
+    </view>
     <list detail="{{detail}}"  bind:checkDetail="checkDetail"></list>
   </view>
 </view>
